@@ -156,7 +156,7 @@ const Recognition = new SpeechRecognition();
 Recognition.onstart = function(){
      
     console.log("vr active");
-    readout("jaya was lisning");
+    readout(" ! hey i am  jaya. what i can help you");
 }
 // sr resultsif
 Recognition.onresult = function(event){
@@ -174,8 +174,11 @@ if(transcript.includes ("are you understand hindi")){
 if(transcript.includes ("male or female ")){
   readout("no i am an ai robot who maks by saksham khare ");
 }
-if(transcript.includes ("jaya")){
-  readout("hello sir what i can halp you.");
+if(transcript.includes ("how are you ")){
+  readout("i am fine . tell me about ourself");
+}
+if(transcript.includes (" jaya")){
+  readout("hello sir.");
 }
 if(transcript.includes ("jarvis")){
   readout("noooo! i am not jarvis . i am JAYA . please do not take name of jarvis . i hate him .");

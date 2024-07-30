@@ -38,7 +38,8 @@ input{
 
 }
 .machine{
-    background-color: black;
+    
+    
     height: 100vh;
     width: 100vw;
     user-select: none;
@@ -114,10 +115,10 @@ input{
     position: static;
 }
 .sak{ 
-    margin-top: -39vh;
-    margin-left: -38vh;
-    height: 75vh;
-    width: 74vh;
+    margin-top: 18vh;
+    margin-left: -54%;
+    height: 32vh;
+    width: 32vh;
 }
 @keyframes rotate {
     0%{ rotate: 360deg;
@@ -181,4 +182,13 @@ color: rgb(182, 65, 65);
     align-items: center;
     justify-content: center;
     margin-left: -21vh;
+}
+.ai{
+    right: 0;
+    height: 11%;
+}
+.al {
+    margin-top: 56vw;
+    height: 40%;
+    margin-left: 13vw;
 }
